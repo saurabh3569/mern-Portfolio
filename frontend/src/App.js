@@ -8,8 +8,6 @@ import Header from './components/Header';
 import AddProject from './pages/Admin/AddProject';
 import UpdateAboutMe from './pages/Admin/UpdateAboutMe';
 import Login from './pages/Admin/Login';
-import { useEffect, useState } from 'react';
-import axios from 'axios';
 import Messages from './pages/Admin/Messages';
 
 
