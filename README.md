@@ -19,7 +19,7 @@ Before running the application, you will need to have the following installed:
 
 ## Installation
 
-+ Clone the repository:
++ Clone the repository: _
 git clone https://github.com/saurabh3569/mern-Portfolio
 
 + Install dependencies in both the root directory and the client directory:
