@@ -23,10 +23,10 @@ Before running the application, you will need to have the following installed:
 git clone https://github.com/saurabh3569/mern-Portfolio
 
 + Install dependencies in both the root directory and the client directory:
-* cd mern-Portfolio
-npm install
-* cd client
-npm frontend
+1. cd mern-Portfolio
+   npm install
+2. cd client
+   npm frontend
 
 + Create a .env file in the root directory and add the following environment variables:
 MONGO_URI=<your-mongodb-uri>
