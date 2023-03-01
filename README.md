@@ -28,8 +28,8 @@ git clone https://github.com/saurabh3569/mern-Portfolio
   - cd client
     - npm frontend
 
-+ Create a .env file in the root directory and add the following environment variables:
-MONGO_URI=<your-mongodb-uri>
++ Create a .env file in the root directory and add the following environment variables: <br />
+MONGO_URI=<your-mongodb-uri> <br />
 JWT_SECRET=<your-jwt-secret>
 
 
