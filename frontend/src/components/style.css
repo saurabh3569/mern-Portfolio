@@ -1,0 +1,32 @@
+.navbarMain {
+  background: #58a8a6;
+  color: white;
+}
+
+.nav-link {
+  color: white !important ;
+}
+
+.nav-link::selection {
+  color: red;
+}
+
+.nav-link:hover {
+  color: yellow !important ;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+/* account */
+.accountsImg{
+  width: 50px;
+}
+
+.accountsMain{
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}

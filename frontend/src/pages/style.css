@@ -1,0 +1,89 @@
+.contactContainer {
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.mainContact {
+  height: 100vh;
+  background-color: #58a8a6;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainProject {
+  background-color: #58a8a6;
+  min-height: 100vh;
+}
+
+/* Home */
+
+.mainHome {
+  height: 100vh;
+  background-color: #58a8a6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: yellow;
+}
+
+.secondHome {
+  margin-top: 90px;
+}
+
+/* About */
+
+.aboutMain {
+  min-height: 100vh;
+  background-color: #58a8a6;
+  color: black;
+  font-family: "Piazzolla", serif;
+  padding: 20px;
+}
+
+.abouth {
+  margin-top: 50px;
+  min-width: 300px;
+}
+
+.skillList {
+  text-align: center;
+  overflow: scroll;
+  max-height: 80vh;
+  overflow-x: hidden;
+  padding-left: 20px;
+}
+
+.skillListData {
+  text-align: start;
+}
+
+/* AllProject */
+.AllProject {
+  background: #58a8a6;
+  min-height: 100vh;
+}
+
+/* login */
+.loginContainer {
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.mainLogin {
+  height: 100vh;
+  background-color: #58a8a6;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* message */
+.messageMain{
+  min-height: 100vh;
+  background: #58a8a6;
+  cursor: pointer;
+}
+
+.messageMain td:hover{
+  color: aqua;
+}
