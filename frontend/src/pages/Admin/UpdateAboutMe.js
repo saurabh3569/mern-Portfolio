@@ -6,6 +6,7 @@ import { toast } from 'react-toastify';
 const UpdateAboutMe = () => {
 
     const [id, setId] = useState('')
+    const token = localStorage.getItem('token')
 
     const [data, setData] = useState({ about: '', skills: '', resume: '' })
     const [about, setAbout] = useState('')
@@ -15,8 +16,14 @@ const UpdateAboutMe = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
+        const config = {
+            heaers : {
+                Authorization : `Bearer ${token}`
+            }
+        }
+
         try {
-            const { data } = await axios.put(`/about/${id}`, { about, skills, resume })
+            const { data } = await axios.put(`/about/${id}`, { about, skills, resume }, config)
             toast.success(data)
         } catch (error) {
             toast.error(error.response?.data);
